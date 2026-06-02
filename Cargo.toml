@@ -2,6 +2,10 @@
 name = "bevy_animate_atlas"
 version = "0.1.0"
 edition = "2024"
+description = "Adobe Animate sparrow V2 and texture atlas support for the Bevy game engine"
+license-file = "LICENSE"
+readme = "README.md"
+repository = "https://github.com/FunkinRustUp/bevy_animate_atlas/"
 
 [dependencies]
 bevy = { version = "0.18.1", default-features = false, features = ["bevy_render", "bevy_asset", "bevy_mesh"] }
