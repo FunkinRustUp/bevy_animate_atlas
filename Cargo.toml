@@ -1,0 +1,9 @@
+[package]
+name = "bevy_animate_atlas"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { version = "0.18.1", default-features = false, features = ["bevy_render", "bevy_asset", "bevy_mesh"] }
+bevy_render = "0.18.1"
+serde_json = "1.0.150"
